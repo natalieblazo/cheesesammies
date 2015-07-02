@@ -23,7 +23,8 @@ body {
 	list-style-type: none;
    margin: 100 px;
    padding-bottom: 50px;
-   overflow: hidden;    
+   overflow: hidden; 
+   font-size: 16pt;   
 }
 
 .main-nav li {
@@ -33,7 +34,7 @@ body {
 
 a:link, a:visited {
     display: block;
-    width: 120px;
+    width: 200px;
     font-family: 'Permanent Marker', cursive;
     color: #3c401b;
     text-align: center;
