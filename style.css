@@ -1,0 +1,62 @@
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+
+} 
+
+#mainlogo {
+	position: absolute;
+   left: 0px;
+   width: 400px;
+   border: none;
+   margin-bottom: 100px;
+   padding: 10px;
+}
+
+body {
+	background-color: #d3caaa;
+
+}
+
+.main-nav {
+	list-style-type: none;
+   margin: 100 px;
+   padding-bottom: 50px;
+   overflow: hidden;    
+}
+
+.main-nav li {
+	display: inline-block;
+
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-family: 'Permanent Marker', cursive;
+    color: #3c401b;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+a:hover, a:active {
+    color: #e8c25c;
+}
+
+/* CSS for fixed element (twitter? Logo?) in lower right corner */
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 250px;
+  height: 70px;
+  background-color: #d3caaa;
+  border: 2px;
+  border-style: dashed;
+  font-family: 'PT Sans Caption', sans-serif;
+
+}
