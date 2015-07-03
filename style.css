@@ -6,12 +6,12 @@ h1 {
 } 
 
 #mainlogo {
-	position: absolute;
+	position: left;
    left: 0px;
    width: 400px;
    border: none;
    margin-bottom: 100px;
-   padding-bottom: 100px;
+  
 }
 
 body {
@@ -24,7 +24,6 @@ body {
 .main-nav {
 	list-style-type: none;
    margin: 100 px;
-   padding-top: 180px;
    overflow: hidden; 
    font-size: 16pt;   
 }
@@ -35,7 +34,7 @@ body {
 }
 
 a:link, a:visited {
-    display: block;
+    display: inline-block;
     width: 200px;
     font-family: 'Permanent Marker', cursive;
     color: #3c401b;
