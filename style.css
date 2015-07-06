@@ -80,6 +80,7 @@ a:hover, a:active {
 .header {
   font-family: 'Philosopher', sans-serif;
   font-size: 25px;
+  text-align: center;
 }
 
 .location-content {
@@ -92,7 +93,7 @@ a:hover, a:active {
   font-size: 16px;
   float: left;
   display: block;
-  width: 300px;
+  width: 500px;
 }
 
 .clearfix {
@@ -107,6 +108,9 @@ a:hover, a:active {
 .gmaps {
   float: right;
   display: block;
+  width: 500px;
+  text-align: center;
+
 
 }
 
@@ -121,9 +125,10 @@ a:hover, a:active {
 
 .story {
   display: block;
-  width: 400px;
+  width: 500px;
   height: 100%;
   float: left;
+  
 
 }
 
@@ -141,7 +146,7 @@ a:hover, a:active {
 .content {
   font-family: 'PT Sans Caption', sans-serif;
   font-size: 16px;
-
+  text-align: justify;
 
 }
 
