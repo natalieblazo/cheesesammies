@@ -25,7 +25,7 @@ body {
 	list-style-type: none;
    margin: 100 px;
    overflow: hidden; 
-   font-size: 16pt;   
+   font-size: 18pt;   
 }
 
 .main-nav li {
@@ -49,6 +49,25 @@ a:hover, a:active {
     color: #e8c25c;
 }
 
+.location-header {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 18px;
+}
+
+.Location {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.img-slider {
+  list-style-type: none;
+
+}
+
+.img-slider li {
+  display: inline-block;
+}
 
 /* CSS for fixed element (twitter? Logo?) in lower right corner */
 .fixed {
