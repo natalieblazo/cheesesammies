@@ -5,14 +5,6 @@ h1 {
 
 } 
 
-#mainlogo {
-	position: left;
-   left: 0px;
-   width: 400px;
-   border: none;
-   margin-bottom: 100px;
-  
-}
 
 body {
 	background-color: #d3caaa;
@@ -21,28 +13,11 @@ body {
 
 }
 
-.main-nav {
-	list-style-type: none;
-   margin: 100 px;
-   margin-top: 40px;
-   overflow: hidden; 
-   font-size: 18pt; 
-    text-align: center;  
-    padding-bottom: 20px;
-}
 
-.main-nav li {
-	display: inline-block;
- 
-
-}
 
 a:link, a:visited {
-    display: inline-block;
-    width: 200px;
     font-family: 'Permanent Marker', cursive;
-    color: #3c401b;
-    text-align: center;
+    color: #ffffff;
     padding: 4px;
     text-decoration: none;
     text-transform: uppercase;
@@ -50,116 +25,26 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color: #e8c25c;
+    color: #ffffff;
 }
 
 
 
-.picture-scroller {
-    width: auto;
-    height: 400px;
-    background-color: grey;
-
-}
-
-/* resize images */
-.picture-scroller img {
-    width: 100%;
-    height: auto;
-}
-
-.img-slider {
-  list-style-type: none;
-  height: 400px;
-  width: 700px;
-  display: block;
 
 
-}
+  /* Larger than mobile */
+@media (min-width: 400px) {}
 
-.header {
-  font-family: 'Philosopher', sans-serif;
-  font-size: 25px;
-  text-align: center;
-}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
 
-.location-content {
-  margin: 20px;
-}
+/* Larger than tablet */
+@media (min-width: 750px) {}
 
+/* Larger than desktop */
+@media (min-width: 1000px) {}
 
-.loctext {
-  font-family: 'PT Sans Caption', sans-serif;
-  font-size: 16px;
-  float: left;
-  display: block;
-  width: 500px;
-}
-
-.clearfix {
-  width: 100%;
-  height: 15px;
-  display: block;
-  clear: both;
-
-}
-
-
-.gmaps {
-  float: right;
-  display: block;
-  width: 500px;
-  text-align: center;
-
-
-}
-
-.location-content {
-  margin: 20px;
-}
-
-.about-content {
-  margin: 20px;
-
-}
-
-.story {
-  display: block;
-  width: 500px;
-  height: 100%;
-  float: left;
-  
-
-}
-
-.story-picture {
-  display: block;
-  float: right;
-}
-
-#bryan {
-  height: 250px;
-  width: 350px;
-}
-
-
-.content {
-  font-family: 'PT Sans Caption', sans-serif;
-  font-size: 16px;
-  text-align: justify;
-
-}
-
-/* CSS for fixed element (twitter? Logo?) in lower right corner */
-.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 250px;
-  height: 70px;
-  background-color: #d3caaa;
-  border: 2px;
-  border-style: dashed;
-  font-family: 'PT Sans Caption', sans-serif;
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
 
 }
