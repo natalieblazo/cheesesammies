@@ -1285,6 +1285,7 @@ h3,
 .h3 {
   font-size: 24px;
 }
+
 h4,
 .h4 {
   font-size: 18px;
@@ -1983,14 +1984,15 @@ pre code {
 
  }
 
-
-
   .col-md-6 {
     width: 50%;
   }
   .col-md-5 {
     width: 45%;
   }
+
+
+
   .col-md-4 {
     width: 33.33333333%;
   }
@@ -2068,9 +2070,16 @@ pre code {
   }
 
   .col-md-5{
-    margin-left: 20px;
+    margin-left: 35px;
 
   }
+
+  .wordpress-box {
+    margin: 60px;
+    display: block;
+  }
+
+
   .col-md-push-4 {
     left: 33.33333333%;
   }
@@ -2158,12 +2167,17 @@ pre code {
     width: 100%;
     display: block;
     float: center;
+    margin-bottom: 50px;
 
   }
 
   p.col-lg-4 {
     font-size: 20pt;
 
+  }
+
+  .img-circle {
+    margin-bottom: 50px;
   }
 
   .col-lg-3 {

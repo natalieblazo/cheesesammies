@@ -50,10 +50,10 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
             
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#location">Location</a></li>  
+                <li><a data-scroll href="#about">About Us</a></li>
+                <li><a data-scroll href="#contact">Contact</a></li>
+                <li><a data-scroll href="#menu">Menu</a></li>
+                <li><a data-scroll href="#location">Location</a></li>  
                   
                   </ul>
                 </li>
@@ -82,7 +82,7 @@
             <div class="carousel-caption">
               <h1>Great Sammies in Ten or Less.</h1>
               <p>We know you've got somewhere to be. Be with us for a few minutes and you won't go back to work hungry. We promise.</p>
-              <p><a class="btn btn-lg btn-primary" href="#location" role="button">Find Us</a></p>
+              <p><a data-scroll class="btn btn-lg btn-primary" href="#location" role="button">Find Us</a></p>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@
             <div class="carousel-caption">
               <h1>Food made simple with not-so-simple flavor.</h1>
               <p>We put care into every sammy we make. Crafting your delicious lunch is never a chore - order what you want, how you want it and it'll be in your hands faster than you could write an e-mail.</p>
-              <p><a class="btn btn-lg btn-primary" href="#menu" role="button">Menu</a></p>
+              <p><a data-scroll class="btn btn-lg btn-primary" href="#menu" role="button">Menu</a></p>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@
             <div class="carousel-caption">
               <h1>Our Story, Your Sammies.</h1>
               <p>Just like your choice to eat with us, our truck started with making a choice and sticking to it. Find out more about the man behind the legend below.</p>
-              <p><a class="btn btn-lg btn-primary" href="#about" role="button">Our Story</a></p>
+              <p><a data-scroll class="btn btn-lg btn-primary" href="#about" role="button">Our Story</a></p>
             </div>
           </div>
         </div>
@@ -190,10 +190,27 @@
       <div class="row featurette" id="contact">
         <div class="col-md-7">
           <h2 class="featurette-heading">Love Us? Want to Know More? <span class="text-muted">Find Us.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <p class="lead"><h3>Send us an e-mail at info@cheesesammies.com:</h3>
+
+            <form action="MAILTO:info@cheesesammies.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name" value="your name"><br>
+            E-mail:<br>
+            <input type="text" name="mail" value="your email"><br>
+            Comment:<br>
+            <input type="text" name="comment" value="your comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+            </form>
+            </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <a href="https://twitter.com/intent/tweet?screen_name=cheesesammies&text=Tweet%20us%20some%20love!" class="twitter-mention-button" data-size="large" data-related="natalieblazo">Tweet to @cheesesammies</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        </script> 
+        <div class="wordpress-box">
+        <h3> Or find us on Wordpress here:</h3>
+        <a href="https://cheesesammies.wordpress.com/">https://cheesesammies.wordpress.com/</a> </div>
         </div>
       </div>
 
@@ -220,7 +237,7 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class="pull-right"><a data-scroll href="#">Back to top</a></p>
         <p>&copy; 2015 Natalie Lazo, SINY </p>
       </footer>
 
@@ -236,5 +253,10 @@
     <script src="js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+   <!-- Custom jS for scrolling and such -->
+    <script src="js/smooth-scroll.js"></script>
+
+    <script>smoothScroll.init();</script>
+
   </body>
 </html>
